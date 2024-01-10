@@ -12,7 +12,21 @@ struct Dog {
     var massInKg: Double
     
     // Computed properties
-        var heightInCentimetres: Double {
-            return heightInMetres * 100
+    var heightInCentimetres: Double {
+        return heightInMetres * 100
+    }
+            var lengthToHeightRatio: Double {
+                return lengthInMetres/heightInMetres
+            
         }
 }
+
+var dogAtMostLeft = Dog(
+    breed: "Bulldog",
+    color: "White with brown pattern",
+    eyecolor: "Black",
+    gender: "unknown",
+    heightInMetres: 0.5,
+    lengthInMetres: 0.7,
+    massInKg: 1.5
+)
