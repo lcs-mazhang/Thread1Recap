@@ -8,7 +8,8 @@
 import SwiftUI
 
 // Stored property
-let purpleToRed = Gradient(colors: [Color.purple, Color.red])
+let tealToBlueToClear = Gradient(colors:[Color.teal, Color.blue, Color.clear])
+let yellowToPurpleToClear = Gradient(colors: [Color.yellow, Color.purple, Color.clear])
 
 // Computed property
 struct ContentView: View {
@@ -16,21 +17,29 @@ struct ContentView: View {
         ZStack {
             
             // bottom layer
-            LinearGradient(
-                gradient: purpleToRed,
-                startPoint: .top,
-                endPoint: .bottom
+            RadialGradient(
+                gradient: tealToBlueToClear,
+                center: .topLeading,
+                startRadius: 200,
+                endRadius: 700
+            )
+            .ignoresSafeArea()
+            
+            // middle layer
+            RadialGradient(
+                gradient: yellowToPurpleToClear,
+                center: .bottomTrailing,
+                startRadius: 200,
+                endRadius: 700
             )
             .ignoresSafeArea()
             
             // top layer
             VStack {
-                Image(systemName: "globe")
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 100)
-                Text("Hello, world!")
-                    .font(.largeTitle)
+                HStack{
+                    Spacer()
+                    
+                }
             }
             .padding()
         }
