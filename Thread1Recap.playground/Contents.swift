@@ -40,3 +40,13 @@ var dog2FromLeftToRight = Dog(
     lengthInMetres: 0.7,
     massInKg: 1.4
 )
+
+var dog3FromLeftToRight = Dog(
+    breed: "Bullmastiff",
+    color: "Black",
+    eyeColor: "Black",
+    spotColor: "Grey",
+    heightInMetres: 0.7,
+    lengthInMetres: 0.8,
+    massInKg: 1.5
+)
