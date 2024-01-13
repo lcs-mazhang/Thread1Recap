@@ -26,8 +26,8 @@ var dog1FromLeftToRight = Dog(
     color: "White with brown pattern",
     eyeColor: "Black",
     spotColor: "Brown",
-    heightInMetres: 0.5,
-    lengthInMetres: 0.6,
+    heightInMetres: 0.4,
+    lengthInMetres: 0.5,
     massInKg: 1.2
 )
 
@@ -50,3 +50,15 @@ var dog3FromLeftToRight = Dog(
     lengthInMetres: 0.8,
     massInKg: 1.5
 )
+
+var dog4FromLeftToRight = Dog(
+    breed: "Cavalier King Carles",
+    color: "Brown",
+    eyeColor: "Brown",
+    spotColor: "white",
+    heightInMetres: 0.5,
+    lengthInMetres: 0.6,
+    massInKg: 1.4
+)
+
+
