@@ -61,4 +61,14 @@ var dog4FromLeftToRight = Dog(
     massInKg: 1.4
 )
 
+var dog5FromLeftToRight = Dog(
+    breed: "Cavalier King Carles",
+    color: "Dark Brown",
+    eyeColor: "Black",
+    spotColor: "white",
+    heightInMetres: 0.4,
+    lengthInMetres: 0.6,
+    massInKg: 1.3
+)
+
 
