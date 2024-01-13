@@ -31,6 +31,9 @@ var dog1FromLeftToRight = Dog(
     massInKg: 1.2
 )
 
+dog1FromLeftToRight.heightInCentimetres
+dog1FromLeftToRight.lengthToHeightRatio
+
 var dog2FromLeftToRight = Dog(
     breed: "Bernese Mountain Dog",
     color: "Black",
@@ -40,6 +43,9 @@ var dog2FromLeftToRight = Dog(
     lengthInMetres: 0.7,
     massInKg: 1.4
 )
+
+dog2FromLeftToRight.heightInCentimetres
+dog2FromLeftToRight.lengthToHeightRatio
 
 var dog3FromLeftToRight = Dog(
     breed: "Bullmastiff",
@@ -51,6 +57,9 @@ var dog3FromLeftToRight = Dog(
     massInKg: 1.5
 )
 
+dog3FromLeftToRight.heightInCentimetres
+dog3FromLeftToRight.lengthToHeightRatio
+
 var dog4FromLeftToRight = Dog(
     breed: "Cavalier King Carles",
     color: "Brown",
@@ -61,6 +70,9 @@ var dog4FromLeftToRight = Dog(
     massInKg: 1.4
 )
 
+dog4FromLeftToRight.heightInCentimetres
+dog4FromLeftToRight.lengthToHeightRatio
+
 var dog5FromLeftToRight = Dog(
     breed: "Cavalier King Carles",
     color: "Dark Brown",
@@ -70,5 +82,8 @@ var dog5FromLeftToRight = Dog(
     lengthInMetres: 0.6,
     massInKg: 1.3
 )
+ 
+dog5FromLeftToRight.heightInCentimetres
+dog5FromLeftToRight.lengthToHeightRatio
 
 
